@@ -54,6 +54,16 @@ const Navbar = () => {
               HOME
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="relative inline-block cursor-pointer group hover:text-brightColor"
+            >
+              ABOUT US
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
+            </Link>
 
             <Link
               to="couses"
@@ -66,16 +76,7 @@ const Navbar = () => {
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
 
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="relative inline-block cursor-pointer group hover:text-brightColor"
-            >
-              ABOUT US
-              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-            </Link>
+           
 
             <Link
               to="team"
@@ -139,16 +140,6 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="couses"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="transition-all cursor-pointer hover:text-brightColor"
-            onClick={closeMenu}
-          >
-            COURSES
-          </Link>
-          <Link
             to="about"
             spy={true}
             smooth={true}
@@ -158,6 +149,17 @@ const Navbar = () => {
           >
             About Us
           </Link>
+          <Link
+            to="couses"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="transition-all cursor-pointer hover:text-brightColor"
+            onClick={closeMenu}
+          >
+            COURSES
+          </Link>
+         
           <Link
             to="team"
             spy={true}

@@ -9,8 +9,8 @@ const Home = () => {
 
 <div className='min-h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 bg-gradient-to-r from-[#c6c5f5] to-[#5f5fe3]'>
       <div className='space-y-4 wpfull lg:w-2/4 mt-14 lg:mt-0'>
-        <h2 className='text-3xl font-semibold tracking-wide text-center text-white lg:text-start'>WELCOME TO SDCoding</h2>
-        <h1 className='text-5xl font-semibold leading-tight text-center lg:text-start'>
+        <h2 className='text-3xl font-medium tracking-wide text-center text-black lg:text-start'>WELCOME TO SDCoding</h2>
+        <h1 className='text-5xl font-bold leading-tight text-center lg:text-start'>
             Best Online Education Expertise
             </h1>
         <p className='font-semibold '>
