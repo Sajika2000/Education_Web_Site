@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 import Button from "../Component/Layout/button";
 
+
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
@@ -39,7 +40,7 @@ const Navbar = () => {
       <div>
         <div className="flex flex-row justify-between p-5 lg:px-32 px-5 bg-gradient-to-r from-backgroundColor to-brightColor shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className="flex flex-row items-center gap-2 cursor-pointer">
-            <h1 className="text-xl font-semibold">SDCording</h1>
+            <h1 className="text-xl font-semibold">SDCoding</h1>
           </div>
 
           <nav className="flex-row items-center hidden gap-8 text-lg font-medium md:flex">
@@ -211,7 +212,7 @@ const Navbar = () => {
               </div>
               <button
                 type="submit"
-                className="border-2 px-6 py-1 border-white bg-[#8c14e4] hover:text-[#d1a8f0] transition rounded-full"
+                className="border-2 px-6 py-1 border-white bg-[#5f5fe3] hover:text-[#c6c5f5] transition rounded-full"
               >
                 Login
               </button>
@@ -256,7 +257,7 @@ const Navbar = () => {
               </div>
               <button
                 type="submit"
-                className="border-2 px-6 py-1 border-white bg-[#8c14e4] hover:text-[#d1a8f0] transition rounded-full"
+                className="border-2 px-6 py-1 border-white bg-[#5f5fe3] hover:text-[#c6c5f5] transition rounded-full"
               >
                 Register
               </button>
