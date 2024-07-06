@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { coursesCard } from '../Commen/dummydata';
-import Button from '../Layout/button';
+
 
 const CoursesCard = () => {
   const [visibleRows, setVisibleRows] = useState(1);
-  const cardsPerRow = 3; // Assuming there are 3 cards per row
+  const cardsPerRow = 3; 
 
   const handleSeeMore = () => {
     setVisibleRows(prev => prev + 1);
@@ -38,16 +38,16 @@ const CoursesCard = () => {
                 {val.courTeacher.map((details, idx) => (
                   <div key={idx} className='flex items-center mb-4 ml-14'>
                     <img src={details.dcover} alt={details.name} className='w-12 h-12 mr-3 rounded-full' />
-                    <div>
+                    <div className=''>
                       <h4 className='font-medium text-black'>{details.name}</h4>
-                      <span className='text-[#a3a2f4] text-sm'>{details.totalTime}</span>
+                      <span className='text-[#878787] text-sm'>{details.totalTime}</span>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
             <div className='mt-6 text-center'>
-              <div className='mb-4 text-lg font-bold'>
+              <div className='mb-4 text-lg font-bold rounded bg-slate-200'>
                 {val.priceAll} / {val.pricePer}
               </div>
               <button className='font-medium border-2 px-6 py-1 border-[#5f5fe3] bg-[#fff] hover:text-[#c6c5f5] transition rounded text-[#5f5fe3]'>

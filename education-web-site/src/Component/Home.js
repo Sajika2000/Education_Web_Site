@@ -18,6 +18,7 @@ const Home = () => {
         <br></br>
         <div className='flex flex-row gap-6 '>
            <Button title= "GET START NOW"/>
+           
            <button className=' font-medium border-2 px-6 py-1 border-[#5f5fe3] bg-[#fff] hover:text-[#c6c5f5] transition rounded text-[#5f5fe3]'> VIEW COURSE</button>
         </div>
       </div>

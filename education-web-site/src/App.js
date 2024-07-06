@@ -4,6 +4,7 @@ import About from './Component/About';
 import CouseHome from './Component/Allcourses/CouseHome';
 import Home from './Component/Home';
 import Navbar from './Component/Navbar';
+import Team from './Component/Team/Team';
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
         <div  id='about'>
           <About/>
         </div>
-        <div id='couses'> 
+        <div id='course'> 
           <CouseHome/>
+        </div>
+        <div id='team'> 
+          <Team/>
         </div>
       
       </main>

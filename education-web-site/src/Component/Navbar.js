@@ -66,7 +66,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="couses"
+              to="course"
               spy={true}
               smooth={true}
               duration={500}
