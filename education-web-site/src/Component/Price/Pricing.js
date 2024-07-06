@@ -1,5 +1,6 @@
 import React from 'react';
 import PricingCard from './PricingCard';
+import Faq from './Faq';
 
 const Pricing = () => {
   return (
@@ -10,6 +11,7 @@ const Pricing = () => {
           Choose the right plan.
         </h2>
         <PricingCard />
+        <Faq/>
       </div>
     </section>
   );
