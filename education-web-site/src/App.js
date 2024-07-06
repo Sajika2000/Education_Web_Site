@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './Component/About';
+import CouseHome from './Component/Allcourses/CouseHome';
 import Home from './Component/Home';
 import Navbar from './Component/Navbar';
 
@@ -14,6 +15,9 @@ function App() {
         </div >
         <div  id='about'>
           <About/>
+        </div>
+        <div id='couses'> 
+          <CouseHome/>
         </div>
       
       </main>
