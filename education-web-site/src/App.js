@@ -2,6 +2,7 @@
 import './App.css';
 import About from './Component/About';
 import CouseHome from './Component/Allcourses/CouseHome';
+import Contact from './Component/Contact';
 import Home from './Component/Home';
 import Navbar from './Component/Navbar';
 import Pricing from './Component/Price/Pricing';
@@ -26,6 +27,9 @@ function App() {
         </div>
         <div id='price'> 
           <Pricing/>
+        </div>
+        <div id='contact'> 
+          <Contact/>
         </div>
       
       </main>
