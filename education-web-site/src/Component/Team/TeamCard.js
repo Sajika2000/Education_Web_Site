@@ -7,7 +7,7 @@ const TeamCard = () => {
       {team.map((val, index) => (
         <div key={index} className='bg-white rounded-lg shadow-md'>
           <div className='relative'>
-            <img src={val.cover} alt={val.name} className='w-full rounded-t-lg h-74 ' />
+            <img src={val.cover} alt={val.name} className='w-auto rounded-t-lg h-84' />
             <div className='absolute top-0 right-0 m-2 space-x-2'>
               <i  className='fab fa-facebook-f hover:bg-[#5f5fe3] hover:text-[#fff] p-2 rounded-md'></i>
               <i className='fab fa-instagram icon hover:bg-[#5f5fe3] hover:text-[#fff] p-2 rounded-md'></i>

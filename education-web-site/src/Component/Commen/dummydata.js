@@ -48,7 +48,7 @@ export const homeAbout = [
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back1.jpg",
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -62,7 +62,7 @@ export const homeAbout = [
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back2.jpeg",
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -76,7 +76,7 @@ export const homeAbout = [
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back3.jpg",
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -104,7 +104,7 @@ export const homeAbout = [
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back1.jpg",
           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -118,7 +118,7 @@ export const homeAbout = [
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back2.jpeg",
           name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -132,7 +132,7 @@ export const homeAbout = [
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "./images/back3.jpg",
           name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -245,7 +245,7 @@ export const homeAbout = [
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
@@ -255,32 +255,32 @@ export const homeAbout = [
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t3.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t4.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t5.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t6.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t7.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t8.webp",
+      cover: "./images/team/t2.webp",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },

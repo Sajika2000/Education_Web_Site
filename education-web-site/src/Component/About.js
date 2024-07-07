@@ -1,5 +1,5 @@
 import React from "react";
-import Aboutimg from '../Component/Assets/about.webp';
+import Aboutimg from '../Component/Assets/about.png';
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <section className='flex items-center justify-center min-h-screen bg-gray-100'>
         <div className='container flex flex-col items-center mx-auto md:flex-row'>
           <div className='w-full p-4 md:w-1/2'>
-            <img src={Aboutimg} alt='About' className='w-full rounded-lg shadow-lg' />
+            <img src={Aboutimg} alt='About' className='w-full h-full rounded-lg shadow-lg' />
           </div>
           <div className='w-full p-4 text-left md:w-1/2'>
             <h2 className="mt-20 text-2xl font-medium tracking-wide text-black ">LEARN ANYTHING</h2>
